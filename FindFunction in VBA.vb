@@ -1,3 +1,5 @@
+Option Compare Text
+
 Sub CheckCategory()
 
     Dim Listi As Integer
