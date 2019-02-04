@@ -1,5 +1,9 @@
 # Automate-boring-stuff
 Automate boring stuff in reading pdf and filling in forms
+## Checking files under selected folder.vb
+- This code will pop up a msgbox, allowing us to select the folder that we would like to check all files inside.
+## Create Empty txt based on cells.vb
+- This code will batch-create blank txt files under a selected folder, based on cells value in Excel.
 ## Illustration to FindFunction in VBA.vb
 - Situtation: Visa Services Agents usually need to check if they have collected all requried supporting documents, as specified by
 gov checklist.
