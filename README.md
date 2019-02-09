@@ -10,3 +10,6 @@ gov checklist.
 - Solution: We create 2 worksheets under 1 workbook, ""FileName" and "Checklist". The documents might have slightly different names,
 here, are assumed to contain basic keywords like "Passport", "COE", etc. As long as those keywords are detected, it will be written down
 to Column B under sheet"FileName" whilst the undetected name will be shown as "N/A" and be formatted as Red font.
+## CheckCategories_usingFind.vb
+- The main feature of this codes enables the user to check if the keywords in Column"D" has ever appeared in another sheet's Column "A". Particluarly, in each cell of Column "D", you can enter mutilple keywords that you would like check and separate them by ";". (BTW, it's case insensitive)
+- This solved the issue where people might name files differently but would like to categorize them according to a list of usual naming habit. For instance, "passport" or "ppt" in your file name will both be detected and categorized as "Passport Category" whilst "mum" or "dad" will be allocated to parents category.
