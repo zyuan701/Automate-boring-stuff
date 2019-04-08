@@ -13,3 +13,6 @@ to Column B under sheet"FileName" whilst the undetected name will be shown as "N
 ## CheckCategories_usingFind.vb
 - The main feature of this codes enables the user to check if the keywords in Column"D" has ever appeared in another sheet's Column "A". Particluarly, in each cell of Column "D", you can enter mutilple keywords that you would like check and separate them by ";". (BTW, it's case insensitive)
 - This solved the issue where people might name files differently but would like to categorize them according to a list of usual naming habit. For instance, "passport" or "ppt" in your file name will both be detected and categorized as "Passport Category" whilst "mum" or "dad" will be allocated to parents category.
+## Batch Download.vb
+- This is written to batch download files based on Urls in cells and then save it under Downloads folder. 
+- Scenario: when collecting syllabus for students to apply for credit transfer, we could go to government website to download it based on course code. e.g.  The urls follow a same pattern as "https://training.gov.au/TrainingComponentFiles/BSB/BSBXXXXXX_R1.pdf", where BSBXXXXXX is the course code. 
